@@ -1,0 +1,19 @@
+{
+    "name": "GlobalVisualizer.Tests.Support",
+    "rootNamespace": "GlobalVisualizer.Tests",
+    "references": [
+        "GlobalVisualizer.Runtime",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

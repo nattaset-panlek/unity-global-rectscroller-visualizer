@@ -1,0 +1,27 @@
+{
+    "name": "GlobalVisualizer.Tests.Editor",
+    "rootNamespace": "GlobalVisualizer.Tests",
+    "references": [
+        "GlobalVisualizer.Runtime",
+        "GlobalVisualizer.Editor",
+        "GlobalVisualizer.Tests.Support",
+        "UnityEngine.UI",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

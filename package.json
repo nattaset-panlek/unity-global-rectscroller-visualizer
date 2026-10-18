@@ -1,0 +1,41 @@
+{
+  "name": "com.globalvisualizer.core",
+  "version": "1.0.0",
+  "displayName": "Global Visualizer",
+  "description": "Virtualized list, grid, flow and scroller framework for uGUI. Bind any prefab to any data: only the visible items are created and their GameObjects are pooled. Variable item sizes, selection, keyboard and gamepad navigation, drag-or-scroll, empty placeholder and Hierarchy menus.",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "keywords": [
+    "ui",
+    "list",
+    "grid",
+    "flow",
+    "scroll",
+    "virtualization",
+    "pool",
+    "ugui"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Axnise"
+  },
+  "samples": [
+    {
+      "displayName": "Showcase",
+      "description": "Ready-made scene: interactive lessons, a playground for every setting, a benchmark against a normal ScrollRect + LayoutGroup, and an in-scene self test. Open GlobalVisualizerShowcase.unity and press Play.",
+      "path": "Samples~/Showcase"
+    },
+    {
+      "displayName": "Basic Demo",
+      "description": "A vertical list of 10,000 items, a horizontal list and a grid, built at runtime.",
+      "path": "Samples~/BasicDemo"
+    },
+    {
+      "displayName": "Interaction Demo",
+      "description": "Multi-selection, keyboard and gamepad focus, double and right click, snapping, rows sized by a provider, a measured tag flow and the empty placeholder.",
+      "path": "Samples~/InteractionDemo"
+    }
+  ]
+}
