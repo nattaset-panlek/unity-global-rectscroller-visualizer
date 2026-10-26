@@ -52,7 +52,13 @@ Then open **Package Manager > Global Visualizer > Samples** and import **Showcas
 
 1. Right-click in the Hierarchy: **Global Visualizer > Vertical List**.
    - You get a ScrollRect, a `GlobalVisualizerView` and an inactive **Item Template**.
+
+   ![Hierarchy Menu](Documentation~/images/hierarchy_menu.png)
+
 2. Optional: right-click it again and choose **Create Item Template...** to generate your own prefab and script.
+
+   ![Create Item Template](Documentation~/images/item_template_wizard.png)
+
 3. Bind data from code:
 
 ```csharp

@@ -59,7 +59,13 @@
 ## เริ่มต้นอย่างเร็ว
 
 1. คลิกขวาใน Hierarchy เลือก **Global Visualizer > Vertical List** จะได้ ScrollRect, `GlobalVisualizerView` และ **Item Template** ที่ปิดไว้
+
+   ![Hierarchy Menu](Documentation~/images/hierarchy_menu.png)
+
 2. ถ้าต้องการ prefab ของตัวเอง ให้คลิกขวาอีกครั้งแล้วเลือก **Create Item Template...**
+
+   ![Create Item Template](Documentation~/images/item_template_wizard.png)
+
 3. ผูกข้อมูลจากโค้ด:
 
 ```csharp
